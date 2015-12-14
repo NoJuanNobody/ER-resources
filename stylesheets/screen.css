@@ -1,0 +1,471 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 51, ../sass/screen.scss */
+header img {
+  width: 200px;
+  padding: 10px;
+}
+/* line 55, ../sass/screen.scss */
+header div {
+  text-align: center;
+}
+
+/* line 60, ../sass/screen.scss */
+.hero {
+  background: linear-gradient(rgba(0, 176, 216, 0.45), rgba(0, 176, 216, 0.45)), url("../img/Hero.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 65, ../sass/screen.scss */
+.hero h1 {
+  font-size: 140px;
+  font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+  color: #fff;
+  position: relative;
+  top: 400px;
+}
+/* line 72, ../sass/screen.scss */
+.hero h2 {
+  font-size: 30px;
+  font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+  color: #fff;
+  position: relative;
+  top: 400px;
+  left: 8px;
+  padding-top: 20px;
+}
+
+/* line 82, ../sass/screen.scss */
+.headline {
+  padding: 50px;
+  background: #00b0d8;
+}
+/* line 85, ../sass/screen.scss */
+.headline p {
+  font-size: 30px;
+  font-family: "Univers LT W04_55 Roman", helvetica, sans-serif;
+  color: #fff;
+  padding-top: 20px;
+}
+
+/* line 92, ../sass/screen.scss */
+.copy {
+  padding-top: 50px;
+  background: url(../img/dvf_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 97, ../sass/screen.scss */
+.copy h3 {
+  font-family: "Univers LT W01_65 Bold", helvetica, sans-serif;
+  font-size: 30px;
+}
+/* line 101, ../sass/screen.scss */
+.copy h3 span {
+  color: #00b0d8;
+  font-size: 36px;
+}
+/* line 107, ../sass/screen.scss */
+.copy .logo {
+  width: 324px;
+  display: inline-block;
+}
+/* line 111, ../sass/screen.scss */
+.copy hr {
+  width: 200px;
+  display: inline-block;
+}
+
+/* line 116, ../sass/screen.scss */
+p {
+  font-size: 24px;
+  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  margin: 15px 0;
+}
+
+/* line 122, ../sass/screen.scss */
+.form {
+  background: #bbe5e4;
+}
+/* line 124, ../sass/screen.scss */
+.form .headline {
+  width: 487px;
+  position: relative;
+  left: -15px;
+}
+/* line 128, ../sass/screen.scss */
+.form .headline p {
+  font-size: 18px;
+  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  margin: 0;
+  padding: 5;
+}
+/* line 135, ../sass/screen.scss */
+.form h3 {
+  color: #fff;
+}
+/* line 138, ../sass/screen.scss */
+.form button {
+  font-family: "Univers LT W01_65 Bold", helvetica, sans-serif;
+  font-size: 24px;
+  background: #ff8731;
+  border: 2px solid #fff;
+  padding: 20px;
+}
+/* line 145, ../sass/screen.scss */
+.form label {
+  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  margin-top: 15px;
+}
+
+/* line 151, ../sass/screen.scss */
+main footer {
+  margin-top: 50px;
+}
+/* line 154, ../sass/screen.scss */
+main footer p {
+  font-size: 12px;
+}
+
+/* line 160, ../sass/screen.scss */
+a {
+  color: #00b0d8;
+}
+/* line 162, ../sass/screen.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 167, ../sass/screen.scss */
+.vertical-line {
+  height: 130px;
+  border-left: 1px solid #fff;
+  width: 200px;
+}
+/* line 171, ../sass/screen.scss */
+.vertical-line span {
+  display: block;
+  position: relative;
+  left: 30px;
+  top: 80px;
+  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  /* line 188, ../sass/screen.scss */
+  body .form {
+    background: #bbe5e4;
+  }
+  /* line 190, ../sass/screen.scss */
+  body .form .headline {
+    width: 404px;
+    position: relative;
+    left: -15px;
+    padding: 20px;
+  }
+  /* line 195, ../sass/screen.scss */
+  body .form .headline p {
+    font-size: 16px;
+    margin: 0;
+    padding: 5;
+  }
+  /* line 201, ../sass/screen.scss */
+  body .form label {
+    margin-top: 0px;
+  }
+  /* line 203, ../sass/screen.scss */
+  body .form label[for="salutation"] {
+    margin-top: 10px;
+  }
+  /* line 209, ../sass/screen.scss */
+  body p {
+    margin-bottom: 80px;
+  }
+  /* line 211, ../sass/screen.scss */
+  body p:last-child {
+    margin-bottom: 10px;
+  }
+  /* line 216, ../sass/screen.scss */
+  body nav, body footer p {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  /* line 228, ../sass/screen.scss */
+  body .hero {
+    background: linear-gradient(rgba(0, 176, 216, 0.45) 100px, rgba(0, 176, 216, 0.45) 100px), url("../img/Hero.jpg") -100px;
+  }
+  /* line 230, ../sass/screen.scss */
+  body .hero h1 {
+    font-size: 110px;
+    position: relative;
+    top: 400px;
+  }
+  /* line 235, ../sass/screen.scss */
+  body .hero h2 {
+    font-size: 30px;
+    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 400px;
+    left: 8px;
+    padding-top: 20px;
+  }
+  /* line 245, ../sass/screen.scss */
+  body p {
+    margin-bottom: 50px;
+  }
+  /* line 247, ../sass/screen.scss */
+  body p:last-child {
+    margin-bottom: 10px;
+  }
+  /* line 256, ../sass/screen.scss */
+  body .form .headline {
+    width: 312px;
+    padding: 20px;
+  }
+  /* line 257, ../sass/screen.scss */
+  body .form .headline h3 {
+    font-size: 20px;
+  }
+  /* line 262, ../sass/screen.scss */
+  body .form .headline p {
+    font-size: 16px;
+  }
+  /* line 266, ../sass/screen.scss */
+  body .form label {
+    margin-top: 0px;
+  }
+  /* line 268, ../sass/screen.scss */
+  body .form label[for="salutation"] {
+    margin-top: 10px;
+  }
+  /* line 273, ../sass/screen.scss */
+  body .form button {
+    font-size: 20px;
+  }
+  /* line 277, ../sass/screen.scss */
+  body footer p {
+    margin-bottom: 20px;
+  }
+  /* line 279, ../sass/screen.scss */
+  body footer p:last-child {
+    margin-bottom: 10px;
+  }
+  /* line 286, ../sass/screen.scss */
+  body .copy .logo {
+    width: 263px;
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) and (min-width: 500px) {
+  /* line 298, ../sass/screen.scss */
+  body header img {
+    width: 80px;
+    padding: 10px;
+  }
+  /* line 302, ../sass/screen.scss */
+  body header div {
+    text-align: center;
+  }
+  /* line 306, ../sass/screen.scss */
+  body .hero {
+    background: linear-gradient(rgba(0, 176, 216, 0.45) 100px, rgba(0, 176, 216, 0.45) 100px), url("../img/Hero.jpg") right;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 311, ../sass/screen.scss */
+  body .hero h1 {
+    font-size: 60px;
+    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 200px;
+  }
+  /* line 318, ../sass/screen.scss */
+  body .hero h2 {
+    font-size: 20px;
+    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 200px;
+    left: 8px;
+    padding-top: 20px;
+  }
+  /* line 328, ../sass/screen.scss */
+  body .form {
+    background: #bbe5e4;
+  }
+  /* line 330, ../sass/screen.scss */
+  body .form .headline {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+  }
+  /* line 337, ../sass/screen.scss */
+  body .form .headline p {
+    font-size: 18px;
+    font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+    margin: 0;
+    padding: 5;
+  }
+  /* line 345, ../sass/screen.scss */
+  body .headline {
+    padding: 50px;
+    background: #00b0d8;
+  }
+  /* line 348, ../sass/screen.scss */
+  body .headline p {
+    font-size: 20px;
+    font-family: "Univers LT W04_55 Roman", helvetica, sans-serif;
+    color: #fff;
+    padding-top: 20px;
+  }
+  /* line 356, ../sass/screen.scss */
+  body footer div {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  /* line 366, ../sass/screen.scss */
+  body header img {
+    width: 80px;
+    padding: 10px;
+  }
+  /* line 370, ../sass/screen.scss */
+  body header div {
+    text-align: center;
+  }
+  /* line 374, ../sass/screen.scss */
+  body .hero {
+    background: linear-gradient(rgba(0, 176, 216, 0.45) 100px, rgba(0, 176, 216, 0.45) 100px), url("../img/Hero.jpg") -100px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 379, ../sass/screen.scss */
+  body .hero h1 {
+    font-size: 60px;
+    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 200px;
+  }
+  /* line 386, ../sass/screen.scss */
+  body .hero h2 {
+    font-size: 20px;
+    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 200px;
+    left: 8px;
+    padding-top: 20px;
+  }
+  /* line 396, ../sass/screen.scss */
+  body .form {
+    background: #bbe5e4;
+  }
+  /* line 398, ../sass/screen.scss */
+  body .form .headline {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+  }
+  /* line 405, ../sass/screen.scss */
+  body .form .headline p {
+    font-size: 18px;
+    font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+    margin: 0;
+    padding: 5;
+  }
+  /* line 413, ../sass/screen.scss */
+  body .headline {
+    padding: 50px;
+    background: #00b0d8;
+  }
+  /* line 416, ../sass/screen.scss */
+  body .headline p {
+    font-size: 20px;
+    font-family: "Univers LT W04_55 Roman", helvetica, sans-serif;
+    color: #fff;
+    padding-top: 20px;
+  }
+  /* line 424, ../sass/screen.scss */
+  body footer div {
+    text-align: center;
+  }
+}

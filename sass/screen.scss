@@ -1,0 +1,429 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+  // font-family:'Memphis LT W01 Light';
+  // font-family:'MemphisLTW01-LightItali';
+  // font-family:'Memphis LT W01 Medium';
+  // font-family:'MemphisLTW01-MediumItal';
+  // font-family:'Memphis LT W01 Bold';
+  // font-family:'MemphisLTW01-BoldItalic';
+  // font-family:'MemphisLTW01-ExtraBold';
+  // font-family:'Futura W01 Light';
+  // font-family:'Futura W01 Book';
+  // font-family:'Futura W01 Medium';
+  // font-family:'Futura W01 Heavy';
+  // font-family:'Futura W01 Bold';
+  // font-family:'UniversLTW01-47LightCn';
+  // font-family:'UniversLTW01-47LightCnO';
+  // font-family:'UniversLTW01-57Condense_723821';
+  // font-family:'UniversLTW01-57Condense_723818';
+  // font-family:'UniversLTW01-67BoldCn';
+  // font-family:'UniversLTW01-67BoldCnOb';
+  // font-family:'UniversLTW01-39ThinUltr';
+  // font-family:'UniversLTW01-49LightUlt';
+  // font-family:'UniversLTW01-59UltraCn';
+  // font-family:'Black Jack W00 Regular';
+  // font-family:'ITCFranklinGothicW01-Bk_812647';
+  // font-family:'Univers LT W01_45 Light';
+  // font-family:'Univers LT W04_55 Roman';
+  // font-family:'Univers LT W01_65 Bold';
+  // font-family:'CaflischScriptW01-Regul';
+  // font-family:'CaflischScriptW01-SmBd';
+  // font-family:'UniversLTW01-55Oblique';
+  // font-family:'UniversLTW01-53Extended';
+  // font-family:'Univers W01_63 Bold Ex';
+  // font-family:'Univers W01_73 Black Ex';
+ @import "compass/reset";
+@import "compass/reset";
+// colors
+$cyan: #00b0d8;
+$cyan-overlay:rgba(0, 176, 216, 0.45);
+$sea-blue:#bbe5e4;
+$white:#fff;
+$CTA:#ff8731;
+// fonts
+$universeBoldCnd: 'UniversLTW01-67BoldCn', helvetica, sans-serif; 
+$universeBold: 'Univers LT W01_65 Bold', helvetica, sans-serif; 
+$universeRoman:'Univers LT W04_55 Roman', helvetica, sans-serif;
+$universeLight: 'Univers LT W01_45 Light', helvetica, sans-serif;
+header{
+	img{
+		width:200px;
+		padding:10px;
+	}
+	div{
+		text-align:center;
+	}
+}
+
+.hero{
+	background: linear-gradient($cyan-overlay, $cyan-overlay), url('../img/Hero.jpg');
+	height:800px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	h1{
+		font-size: 140px;
+		font-family: $universeBoldCnd;
+		color:$white;
+		position:relative;
+		top:400px;
+	}
+	h2{
+		font-size: 30px;
+		font-family: $universeBoldCnd;
+		color:$white;
+		position:relative;
+		top:400px;
+		left:8px;
+		padding-top:20px;
+	}
+}
+.headline{
+	padding:50px;
+	background:$cyan;
+	p{
+		font-size: 30px;
+		font-family: $universeRoman;
+		color:$white;		
+		padding-top:20px;
+	}
+}
+.copy{
+	padding-top:50px;
+	background: url(../img/dvf_bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	h3{
+		font-family: $universeBold;
+		font-size: 30px;
+
+		span{
+			color: $cyan;
+			font-size: 36px;
+		}
+	}
+	
+	.logo{
+		width:324px;
+		display:inline-block;
+	}
+	hr{
+		width:200px;
+		display:inline-block;
+	}
+}
+p{
+	font-size: 24px;
+	font-family: $universeLight;
+	margin: 15px 0;
+}
+
+.form{
+	background:$sea-blue;
+	.headline{
+		width:487px;
+		position:relative;
+		left:-15px;
+		p{
+			font-size: 18px;
+			font-family: $universeLight;
+			margin:0;
+			padding:5;
+		}
+	}
+	h3{
+		color:$white;
+	}
+	button{
+		font-family: $universeBold;
+		font-size: 24px;
+		background: $CTA;
+		border: 2px solid $white;
+		padding:20px;
+	}
+	label{
+		font-family: $universeLight;	
+		margin-top:15px;
+	}
+}
+main{
+	footer{
+		margin-top: 50px;
+
+		p{
+			font-size: 12px;
+
+		}
+	}
+}
+a{
+	color:$cyan;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.vertical-line{
+	height:130px;
+	border-left:1px solid $white;
+	width:200px;
+	span{
+		display: block;
+		position:relative;
+		left:30px;
+		top:80px;
+		font-family: $universeLight;
+		font-size: 20px;
+	}
+}
+// LARGE
+@media (min-width:1200px) {
+	// IDK
+}
+// MEDIUM
+@media (max-width:1200px) and (min-width:992px){
+// form heading needs to be smaller
+body{
+	.form{
+		background:$sea-blue;
+		.headline{
+			width:404px;
+			position:relative;
+			left:-15px;
+			padding:20px;
+			p{
+				font-size: 16px;
+				margin:0;
+				padding:5;
+			}
+		}
+		label{
+			margin-top:0px;
+			&[for="salutation"]{
+				margin-top: 10px;
+			}
+		}
+	}
+	// possible more width for writing 
+	p{
+		margin-bottom: 80px;
+		&:last-child{
+			margin-bottom: 10px;
+			
+		}
+	}
+	nav, footer p{
+		margin-bottom: 20px;
+	}
+}
+
+// fix footer logo (FIXED)
+}
+// SMALL
+@media (max-width:992px) and (min-width:768px){
+
+body{
+	// main headline is breaking, possibly make smaller
+	.hero{
+		background:linear-gradient($cyan-overlay 100px, $cyan-overlay 100px), url('../img/Hero.jpg') -100px;
+		h1{
+			font-size: 110px;
+			position:relative;
+			top:400px;
+		}
+		h2{
+			font-size: 30px;
+			font-family: $universeBoldCnd;
+			color:$white;
+			position:relative;
+			top:400px;
+			left:8px;
+			padding-top:20px;
+		}
+	}
+	p{
+		margin-bottom: 50px;
+		&:last-child{
+			margin-bottom: 10px;
+			
+		}
+	}
+	// position hero image to focus on people
+	// form headline needs to be adjusted
+	.form{
+		
+		.headline{
+			h3{
+				font-size: 20px;
+			}
+			width:312px;
+			padding:20px;
+			p{
+				font-size: 16px;
+			}
+		}
+		label{
+			margin-top:0px;
+			&[for="salutation"]{
+				margin-top: 10px;
+			}
+		}
+		// cta needs to be adjusted
+		button{
+			font-size: 20px;
+		}	
+	}
+	footer p{
+		margin-bottom: 20px;
+		&:last-child{
+			margin-bottom: 10px;
+			
+		}
+	}
+	// fix footer logo 263px
+	.copy{
+		.logo{
+			width:263px;
+			display:inline-block;
+		}
+	}
+}
+}
+// x-EXTRA SMALL
+@media (max-width:768px) and (min-width:500px){
+	
+	body{
+		header{
+			img{
+				width:80px;
+				padding:10px;
+			}
+			div{
+				text-align:center;
+			}
+		}
+		.hero{
+			background:linear-gradient($cyan-overlay 100px, $cyan-overlay 100px), url('../img/Hero.jpg') right;
+			height:400px;
+			background-repeat:no-repeat;
+			background-size:cover;
+			h1{
+				font-size: 60px;
+				font-family: $universeBoldCnd;
+				color:$white;
+				position:relative;
+				top:200px;
+			}
+			h2{
+				font-size: 20px;
+				font-family: $universeBoldCnd;
+				color:$white;
+				position:relative;
+				top:200px;
+				left:8px;
+				padding-top:20px;
+			}
+		}
+		.form{
+			background:$sea-blue;
+			.headline{
+			// background: inherit;
+			width:100%;
+			left:0;
+			text-align: center;
+			color:#fff;
+			margin:0 auto;
+				p{
+					font-size: 18px;
+					font-family: $universeLight;
+					margin:0;
+					padding:5;
+				}
+			}
+		}		
+		.headline{
+			padding:50px;
+			background:$cyan;
+			p{
+				font-size: 20px;
+				font-family: $universeRoman;
+				color:$white;		
+				padding-top:20px;
+			}
+		}
+		footer{
+			div {
+			text-align: center;
+			}
+		}
+	}
+	
+}@media (max-width:500px){
+	
+	body{
+		header{
+			img{
+				width:80px;
+				padding:10px;
+			}
+			div{
+				text-align:center;
+			}
+		}
+		.hero{
+			background:linear-gradient($cyan-overlay 100px, $cyan-overlay 100px), url('../img/Hero.jpg') -100px;
+			height:400px;
+			background-repeat:no-repeat;
+			background-size:cover;
+			h1{
+				font-size: 60px;
+				font-family: $universeBoldCnd;
+				color:$white;
+				position:relative;
+				top:200px;
+			}
+			h2{
+				font-size: 20px;
+				font-family: $universeBoldCnd;
+				color:$white;
+				position:relative;
+				top:200px;
+				left:8px;
+				padding-top:20px;
+			}
+		}
+		.form{
+			background:$sea-blue;
+			.headline{
+			// background: inherit;
+			width:100%;
+			left:0;
+			text-align: center;
+			color:#fff;
+			margin:0 auto;
+				p{
+					font-size: 18px;
+					font-family: $universeLight;
+					margin:0;
+					padding:5;
+				}
+			}
+		}		
+		.headline{
+			padding:50px;
+			background:$cyan;
+			p{
+				font-size: 20px;
+				font-family: $universeRoman;
+				color:$white;		
+				padding-top:20px;
+			}
+		}
+		footer{
+			div {
+			text-align: center;
+			}
+		}
+	}
+}
