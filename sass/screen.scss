@@ -34,19 +34,55 @@
   // font-family:'UniversLTW01-53Extended';
   // font-family:'Univers W01_63 Bold Ex';
   // font-family:'Univers W01_73 Black Ex';
+  // font-family:'Avenir Next Cyr W00 Ult Light';
+  // font-family:'Avenir Next Cyr W00 Ult Lt It';
+  // font-family:'Avenir Next Cyr W00 Thin';
+  // font-family:'Avenir Next Cyr W00 Thin It';
+  // font-family:'Avenir Next Cyr W00 Light';
+  // font-family:'Avenir Next Cyr W00 Light It';
+  // font-family:'Avenir Next Cyr W00 Regular';
+  // font-family:'Avenir Next Cyr W00 Italic';
+  // font-family:'Avenir Next Cyr W00 Medium';
+  // font-family:'Avenir Next Cyr W00 Medium It';
+  // font-family:'Avenir Next Cyr W00 Demi';
+  // font-family:'Avenir Next Cyr W00 Demi It';
+  // font-family:'Avenir Next Cyr W00 Bold';
+  // font-family:'Avenir Next Cyr W00 Bold It';
+  // font-family:'Avenir Next Cyr W00 Heavy';
+  // font-family:'Avenir Next Cyr W00 Heavy It';
+  // font-family:'AvenirNextLTW01-UltraLi';
+  // font-family:'AvenirNextLTW01-UltraLt_721260';
+  // font-family:'AvenirNextLTW01-BoldIta';
+  // font-family:'AvenirNextLTW01-UltraLt_721293';
+  // font-family:'AvenirNextLTW01-UltLtCn_721296';
+  // font-family:'AvenirNextLTW01-Condens_721299';
+  // font-family:'AvenirNextLTW01-Condens_721302';
+  // font-family:'AvenirNextLTW01-MediumC_721311';
+  // font-family:'AvenirNextLTW01-MediumC_721314';
+  // font-family:'AvenirNextLTW01-DemiCn';
+  // font-family:'AvenirNextLTW01-DemiCnI_721308';
+  // font-family:'AvenirNextLTW01-BoldCn';
+  // font-family:'AvenirNextLTW01-BoldCnI_721320';
+  // font-family:'AvenirNextLTW01-HeavyCn_721323';
+  // font-family:'AvenirNextLTW01-HeavyCn_721326';
+  // font-family:'Avenir Next W01 Cn Thin';
+  // font-family:'AvenirNextW01-CnThinIta';
+  // font-family:'AvenirNextW01-CnLight';
+  // font-family:'AvenirNextW01-CnLightIt';
  @import "compass/reset";
 @import "compass/reset";
 // colors
-$cyan: #00b0d8;
-$cyan-overlay:rgba(0, 176, 216, 0.45);
-$sea-blue:#bbe5e4;
+$primary: #8b9b3c;
+$primary-overlay:rgba(0, 176, 216, 0.45);
+$secondary:#edf0e1;
 $white:#fff;
-$CTA:#ff8731;
+$black:#222;
+$CTA:#00b0d8;
 // fonts
-$universeBoldCnd: 'UniversLTW01-67BoldCn', helvetica, sans-serif; 
-$universeBold: 'Univers LT W01_65 Bold', helvetica, sans-serif; 
-$universeRoman:'Univers LT W04_55 Roman', helvetica, sans-serif;
-$universeLight: 'Univers LT W01_45 Light', helvetica, sans-serif;
+$BoldCnd: 'Avenir Next Cyr W00 Regular', helvetica, sans-serif; 
+$Bold: 'Avenir Next Cyr W00 Medium', helvetica, sans-serif; 
+$Roman:'Avenir Next Cyr W00 Regular', helvetica, sans-serif;
+$Light: 'Avenir Next Cyr W00 Light', helvetica, sans-serif;
 header{
 	img{
 		width:200px;
@@ -56,22 +92,27 @@ header{
 		text-align:center;
 	}
 }
-
+body{
+	background: url(../img/dvf_bg.jpg);
+	background-size:cover;
+}
 .hero{
-	background: linear-gradient($cyan-overlay, $cyan-overlay), url('../img/Hero.jpg');
+	background: url('../img/Hero.jpg');
 	height:800px;
+
 	background-repeat:no-repeat;
 	background-size:cover;
 	h1{
-		font-size: 140px;
-		font-family: $universeBoldCnd;
+		text-transform:uppercase;
+		font-size: 100px;
+		font-family: $BoldCnd;
 		color:$white;
 		position:relative;
-		top:400px;
+		top:715px;
 	}
 	h2{
 		font-size: 30px;
-		font-family: $universeBoldCnd;
+		font-family: $BoldCnd;
 		color:$white;
 		position:relative;
 		top:400px;
@@ -80,26 +121,38 @@ header{
 	}
 }
 .headline{
-	padding:50px;
-	background:$cyan;
+	padding-top:10px;
+	background:$white;
 	p{
 		font-size: 30px;
-		font-family: $universeRoman;
-		color:$white;		
+		font-family: $Roman;
+		color:$black;		
 		padding-top:20px;
+	}
+	h2{
+		font-size: 70px;
+		font-family: $BoldCnd;
+		text-transform: uppercase;
+		color:$primary;
+	}
+	h3{
+		font-size:30px;
+		font-family:$Bold;
+
 	}
 }
 .copy{
 	padding-top:50px;
-	background: url(../img/dvf_bg.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
+	background:$white;
+	p{
+		margin-bottom:80px;
+	}
 	h3{
-		font-family: $universeBold;
+		font-family: $Bold;
 		font-size: 30px;
 
 		span{
-			color: $cyan;
+			color: $primary;
 			font-size: 36px;
 		}
 	}
@@ -109,25 +162,34 @@ header{
 		display:inline-block;
 	}
 	hr{
-		width:200px;
-		display:inline-block;
+		border-top:1px solid #C7CEC7;
+		width:80%;
+		margin-top: 60px;
 	}
 }
 p{
 	font-size: 24px;
-	font-family: $universeLight;
+	font-family: $Light;
 	margin: 15px 0;
+
 }
 
 .form{
-	background:$sea-blue;
+	.form-cta{
+		margin-bottom: 10px;
+	}
+	background:$secondary;
 	.headline{
+		padding:20px;
+		background:$primary;
+		text-transform: uppercase;
 		width:487px;
 		position:relative;
 		left:-15px;
 		p{
+
 			font-size: 18px;
-			font-family: $universeLight;
+			font-family: $Light;
 			margin:0;
 			padding:5;
 		}
@@ -136,15 +198,16 @@ p{
 		color:$white;
 	}
 	button{
-		font-family: $universeBold;
+		font-family: $Bold;
 		font-size: 24px;
 		background: $CTA;
 		border: 2px solid $white;
 		padding:20px;
+		text-transform: uppercase;
 	}
 	label{
-		font-family: $universeLight;	
-		margin-top:15px;
+		font-family: $Light;	
+		margin-top:10px;
 	}
 }
 main{
@@ -158,7 +221,7 @@ main{
 	}
 }
 a{
-	color:$cyan;
+	color:$primary;
 	&:hover{
 		text-decoration: none;
 	}
@@ -166,28 +229,50 @@ a{
 
 .vertical-line{
 	height:130px;
-	border-left:1px solid $white;
+	border-left:1px solid #C7CEC7;
 	width:200px;
 	span{
 		display: block;
 		position:relative;
 		left:30px;
 		top:80px;
-		font-family: $universeLight;
+		font-family: $Light;
 		font-size: 20px;
 	}
 }
 // LARGE
 @media (min-width:1200px) {
-	// IDK
+	
 }
 // MEDIUM
 @media (max-width:1200px) and (min-width:992px){
 // form heading needs to be smaller
 body{
+	.hero{
+		background: url('../img/Hero.jpg') -180px;
+		height:800px;
+		h1{
+			font-size: 100px;
+			position:relative;
+			top:715px;
+		}
+		h2{
+			font-size: 30px;
+			font-family: $BoldCnd;
+			color:$white;
+			position:relative;
+			top:400px;
+			left:8px;
+			padding-top:20px;
+		}
+	}
 	.form{
-		background:$sea-blue;
+		.form-cta{
+			margin-bottom:10px;
+		}
+		background:$secondary;
 		.headline{
+			
 			width:404px;
 			position:relative;
 			left:-15px;
@@ -195,7 +280,6 @@ body{
 			p{
 				font-size: 16px;
 				margin:0;
-				padding:5;
 			}
 		}
 		label{
@@ -226,15 +310,16 @@ body{
 body{
 	// main headline is breaking, possibly make smaller
 	.hero{
-		background:linear-gradient($cyan-overlay 100px, $cyan-overlay 100px), url('../img/Hero.jpg') -100px;
+		background: url('../img/Hero.jpg') -220px;
+		height: 700px;
 		h1{
-			font-size: 110px;
+			font-size: 80px;
 			position:relative;
-			top:400px;
+			top:632px;
 		}
 		h2{
 			font-size: 30px;
-			font-family: $universeBoldCnd;
+			font-family: $BoldCnd;
 			color:$white;
 			position:relative;
 			top:400px;
@@ -261,14 +346,10 @@ body{
 			padding:20px;
 			p{
 				font-size: 16px;
+				margin-bottom: 0;
 			}
 		}
-		label{
-			margin-top:0px;
-			&[for="salutation"]{
-				margin-top: 10px;
-			}
-		}
+		
 		// cta needs to be adjusted
 		button{
 			font-size: 20px;
@@ -304,29 +385,25 @@ body{
 			}
 		}
 		.hero{
-			background:linear-gradient($cyan-overlay 100px, $cyan-overlay 100px), url('../img/Hero.jpg') right;
-			height:400px;
-			background-repeat:no-repeat;
-			background-size:cover;
+			background: url('../img/Hero.jpg') -250px;
+			height:600px;
 			h1{
-				font-size: 60px;
-				font-family: $universeBoldCnd;
-				color:$white;
+				font-size: 70px;
 				position:relative;
-				top:200px;
+				top:542px;
 			}
 			h2{
-				font-size: 20px;
-				font-family: $universeBoldCnd;
+				font-size: 30px;
+				font-family: $BoldCnd;
 				color:$white;
 				position:relative;
-				top:200px;
+				top:400px;
 				left:8px;
 				padding-top:20px;
 			}
 		}
 		.form{
-			background:$sea-blue;
+			background:$secondary;
 			.headline{
 			// background: inherit;
 			width:100%;
@@ -336,20 +413,22 @@ body{
 			margin:0 auto;
 				p{
 					font-size: 18px;
-					font-family: $universeLight;
+					font-family: $Light;
 					margin:0;
 					padding:5;
 				}
 			}
 		}		
 		.headline{
-			padding:50px;
-			background:$cyan;
 			p{
 				font-size: 20px;
-				font-family: $universeRoman;
-				color:$white;		
 				padding-top:20px;
+			}
+			h2{
+				font-size: 50px;
+			}
+			h3{
+				font-size:25px
 			}
 		}
 		footer{
@@ -372,29 +451,25 @@ body{
 			}
 		}
 		.hero{
-			background:linear-gradient($cyan-overlay 100px, $cyan-overlay 100px), url('../img/Hero.jpg') -100px;
-			height:400px;
-			background-repeat:no-repeat;
-			background-size:cover;
-			h1{
-				font-size: 60px;
-				font-family: $universeBoldCnd;
-				color:$white;
-				position:relative;
-				top:200px;
-			}
-			h2{
-				font-size: 20px;
-				font-family: $universeBoldCnd;
-				color:$white;
-				position:relative;
-				top:200px;
-				left:8px;
-				padding-top:20px;
-			}
-		}
+					height:300px;
+					background-size:cover;
+					h1{
+						font-size: 40px;
+						position:relative;
+						top:267px;
+					}
+					h2{
+						font-size: 30px;
+						font-family: $BoldCnd;
+						color:$white;
+						position:relative;
+						top:400px;
+						left:8px;
+						padding-top:20px;
+					}
+				}
 		.form{
-			background:$sea-blue;
+			background:$secondary;
 			.headline{
 			// background: inherit;
 			width:100%;
@@ -404,20 +479,22 @@ body{
 			margin:0 auto;
 				p{
 					font-size: 18px;
-					font-family: $universeLight;
+					font-family: $Light;
 					margin:0;
 					padding:5;
 				}
 			}
 		}		
 		.headline{
-			padding:50px;
-			background:$cyan;
 			p{
 				font-size: 20px;
-				font-family: $universeRoman;
-				color:$white;		
 				padding-top:20px;
+			}
+			h2{
+				font-size: 30px;
+			}
+			h3{
+				font-size: 20px;
 			}
 		}
 		footer{

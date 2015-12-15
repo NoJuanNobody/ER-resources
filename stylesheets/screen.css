@@ -67,35 +67,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 header img {
   width: 200px;
   padding: 10px;
 }
-/* line 55, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 header div {
   text-align: center;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
+body {
+  background: url(../img/dvf_bg.jpg);
+  background-size: cover;
+}
+
+/* line 99, ../sass/screen.scss */
 .hero {
-  background: linear-gradient(rgba(0, 176, 216, 0.45), rgba(0, 176, 216, 0.45)), url("../img/Hero.jpg");
+  background: url("../img/Hero.jpg");
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 65, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .hero h1 {
-  font-size: 140px;
-  font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
   color: #fff;
   position: relative;
-  top: 400px;
+  top: 715px;
 }
-/* line 72, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .hero h2 {
   font-size: 30px;
-  font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
   color: #fff;
   position: relative;
   top: 400px;
@@ -103,270 +110,307 @@ header div {
   padding-top: 20px;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .headline {
-  padding: 50px;
-  background: #00b0d8;
+  padding-top: 10px;
+  background: #fff;
 }
-/* line 85, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .headline p {
   font-size: 30px;
-  font-family: "Univers LT W04_55 Roman", helvetica, sans-serif;
-  color: #fff;
+  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
+  color: #222;
   padding-top: 20px;
 }
+/* line 132, ../sass/screen.scss */
+.headline h2 {
+  font-size: 70px;
+  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #8b9b3c;
+}
+/* line 138, ../sass/screen.scss */
+.headline h3 {
+  font-size: 30px;
+  font-family: "Avenir Next Cyr W00 Medium", helvetica, sans-serif;
+}
 
-/* line 92, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .copy {
   padding-top: 50px;
-  background: url(../img/dvf_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #fff;
 }
-/* line 97, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
+.copy p {
+  margin-bottom: 80px;
+}
+/* line 150, ../sass/screen.scss */
 .copy h3 {
-  font-family: "Univers LT W01_65 Bold", helvetica, sans-serif;
+  font-family: "Avenir Next Cyr W00 Medium", helvetica, sans-serif;
   font-size: 30px;
 }
-/* line 101, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .copy h3 span {
-  color: #00b0d8;
+  color: #8b9b3c;
   font-size: 36px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .copy .logo {
   width: 324px;
   display: inline-block;
 }
-/* line 111, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .copy hr {
-  width: 200px;
-  display: inline-block;
+  border-top: 1px solid #C7CEC7;
+  width: 80%;
+  margin-top: 60px;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 p {
   font-size: 24px;
-  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
   margin: 15px 0;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .form {
-  background: #bbe5e4;
+  background: #edf0e1;
 }
-/* line 124, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
+.form .form-cta {
+  margin-bottom: 10px;
+}
+/* line 182, ../sass/screen.scss */
 .form .headline {
+  padding: 20px;
+  background: #8b9b3c;
+  text-transform: uppercase;
   width: 487px;
   position: relative;
   left: -15px;
 }
-/* line 128, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .form .headline p {
   font-size: 18px;
-  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
   margin: 0;
   padding: 5;
 }
-/* line 135, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .form h3 {
   color: #fff;
 }
-/* line 138, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .form button {
-  font-family: "Univers LT W01_65 Bold", helvetica, sans-serif;
+  font-family: "Avenir Next Cyr W00 Medium", helvetica, sans-serif;
   font-size: 24px;
-  background: #ff8731;
+  background: #00b0d8;
   border: 2px solid #fff;
   padding: 20px;
+  text-transform: uppercase;
 }
-/* line 145, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .form label {
-  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
-  margin-top: 15px;
+  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
+  margin-top: 10px;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 main footer {
   margin-top: 50px;
 }
-/* line 154, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 main footer p {
   font-size: 12px;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 a {
-  color: #00b0d8;
+  color: #8b9b3c;
 }
-/* line 162, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .vertical-line {
   height: 130px;
-  border-left: 1px solid #fff;
+  border-left: 1px solid #C7CEC7;
   width: 200px;
 }
-/* line 171, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .vertical-line span {
   display: block;
   position: relative;
   left: 30px;
   top: 80px;
-  font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
   font-size: 20px;
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
-  /* line 188, ../sass/screen.scss */
-  body .form {
-    background: #bbe5e4;
+  /* line 251, ../sass/screen.scss */
+  body .hero {
+    background: url("../img/Hero.jpg") -180px;
+    height: 800px;
   }
-  /* line 190, ../sass/screen.scss */
+  /* line 254, ../sass/screen.scss */
+  body .hero h1 {
+    font-size: 100px;
+    position: relative;
+    top: 715px;
+  }
+  /* line 259, ../sass/screen.scss */
+  body .hero h2 {
+    font-size: 30px;
+    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 400px;
+    left: 8px;
+    padding-top: 20px;
+  }
+  /* line 269, ../sass/screen.scss */
+  body .form {
+    background: #edf0e1;
+  }
+  /* line 270, ../sass/screen.scss */
+  body .form .form-cta {
+    margin-bottom: 10px;
+  }
+  /* line 274, ../sass/screen.scss */
   body .form .headline {
     width: 404px;
     position: relative;
     left: -15px;
     padding: 20px;
   }
-  /* line 195, ../sass/screen.scss */
+  /* line 280, ../sass/screen.scss */
   body .form .headline p {
     font-size: 16px;
     margin: 0;
-    padding: 5;
   }
-  /* line 201, ../sass/screen.scss */
+  /* line 285, ../sass/screen.scss */
   body .form label {
     margin-top: 0px;
   }
-  /* line 203, ../sass/screen.scss */
+  /* line 287, ../sass/screen.scss */
   body .form label[for="salutation"] {
     margin-top: 10px;
   }
-  /* line 209, ../sass/screen.scss */
+  /* line 293, ../sass/screen.scss */
   body p {
     margin-bottom: 80px;
   }
-  /* line 211, ../sass/screen.scss */
+  /* line 295, ../sass/screen.scss */
   body p:last-child {
     margin-bottom: 10px;
   }
-  /* line 216, ../sass/screen.scss */
+  /* line 300, ../sass/screen.scss */
   body nav, body footer p {
     margin-bottom: 20px;
   }
 }
 @media (max-width: 992px) and (min-width: 768px) {
-  /* line 228, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   body .hero {
-    background: linear-gradient(rgba(0, 176, 216, 0.45) 100px, rgba(0, 176, 216, 0.45) 100px), url("../img/Hero.jpg") -100px;
+    background: url("../img/Hero.jpg") -220px;
+    height: 700px;
   }
-  /* line 230, ../sass/screen.scss */
+  /* line 315, ../sass/screen.scss */
   body .hero h1 {
-    font-size: 110px;
+    font-size: 80px;
     position: relative;
-    top: 400px;
+    top: 632px;
   }
-  /* line 235, ../sass/screen.scss */
+  /* line 320, ../sass/screen.scss */
   body .hero h2 {
     font-size: 30px;
-    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
     color: #fff;
     position: relative;
     top: 400px;
     left: 8px;
     padding-top: 20px;
   }
-  /* line 245, ../sass/screen.scss */
+  /* line 330, ../sass/screen.scss */
   body p {
     margin-bottom: 50px;
   }
-  /* line 247, ../sass/screen.scss */
+  /* line 332, ../sass/screen.scss */
   body p:last-child {
     margin-bottom: 10px;
   }
-  /* line 256, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   body .form .headline {
     width: 312px;
     padding: 20px;
   }
-  /* line 257, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   body .form .headline h3 {
     font-size: 20px;
   }
-  /* line 262, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   body .form .headline p {
     font-size: 16px;
+    margin-bottom: 0;
   }
-  /* line 266, ../sass/screen.scss */
-  body .form label {
-    margin-top: 0px;
-  }
-  /* line 268, ../sass/screen.scss */
-  body .form label[for="salutation"] {
-    margin-top: 10px;
-  }
-  /* line 273, ../sass/screen.scss */
+  /* line 354, ../sass/screen.scss */
   body .form button {
     font-size: 20px;
   }
-  /* line 277, ../sass/screen.scss */
+  /* line 358, ../sass/screen.scss */
   body footer p {
     margin-bottom: 20px;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 360, ../sass/screen.scss */
   body footer p:last-child {
     margin-bottom: 10px;
   }
-  /* line 286, ../sass/screen.scss */
+  /* line 367, ../sass/screen.scss */
   body .copy .logo {
     width: 263px;
     display: inline-block;
   }
 }
 @media (max-width: 768px) and (min-width: 500px) {
-  /* line 298, ../sass/screen.scss */
+  /* line 379, ../sass/screen.scss */
   body header img {
     width: 80px;
     padding: 10px;
   }
-  /* line 302, ../sass/screen.scss */
+  /* line 383, ../sass/screen.scss */
   body header div {
     text-align: center;
   }
-  /* line 306, ../sass/screen.scss */
+  /* line 387, ../sass/screen.scss */
   body .hero {
-    background: linear-gradient(rgba(0, 176, 216, 0.45) 100px, rgba(0, 176, 216, 0.45) 100px), url("../img/Hero.jpg") right;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/Hero.jpg") -250px;
+    height: 600px;
   }
-  /* line 311, ../sass/screen.scss */
+  /* line 390, ../sass/screen.scss */
   body .hero h1 {
-    font-size: 60px;
-    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
-    color: #fff;
+    font-size: 70px;
     position: relative;
-    top: 200px;
+    top: 542px;
   }
-  /* line 318, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   body .hero h2 {
-    font-size: 20px;
-    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    font-size: 30px;
+    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
     color: #fff;
     position: relative;
-    top: 200px;
+    top: 400px;
     left: 8px;
     padding-top: 20px;
   }
-  /* line 328, ../sass/screen.scss */
+  /* line 405, ../sass/screen.scss */
   body .form {
-    background: #bbe5e4;
+    background: #edf0e1;
   }
-  /* line 330, ../sass/screen.scss */
+  /* line 407, ../sass/screen.scss */
   body .form .headline {
     width: 100%;
     left: 0;
@@ -374,70 +418,67 @@ a:hover {
     color: #fff;
     margin: 0 auto;
   }
-  /* line 337, ../sass/screen.scss */
+  /* line 414, ../sass/screen.scss */
   body .form .headline p {
     font-size: 18px;
-    font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+    font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
     margin: 0;
     padding: 5;
   }
-  /* line 345, ../sass/screen.scss */
-  body .headline {
-    padding: 50px;
-    background: #00b0d8;
-  }
-  /* line 348, ../sass/screen.scss */
+  /* line 423, ../sass/screen.scss */
   body .headline p {
     font-size: 20px;
-    font-family: "Univers LT W04_55 Roman", helvetica, sans-serif;
-    color: #fff;
     padding-top: 20px;
   }
-  /* line 356, ../sass/screen.scss */
+  /* line 427, ../sass/screen.scss */
+  body .headline h2 {
+    font-size: 50px;
+  }
+  /* line 430, ../sass/screen.scss */
+  body .headline h3 {
+    font-size: 25px;
+  }
+  /* line 435, ../sass/screen.scss */
   body footer div {
     text-align: center;
   }
 }
 @media (max-width: 500px) {
-  /* line 366, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   body header img {
     width: 80px;
     padding: 10px;
   }
-  /* line 370, ../sass/screen.scss */
+  /* line 449, ../sass/screen.scss */
   body header div {
     text-align: center;
   }
-  /* line 374, ../sass/screen.scss */
+  /* line 453, ../sass/screen.scss */
   body .hero {
-    background: linear-gradient(rgba(0, 176, 216, 0.45) 100px, rgba(0, 176, 216, 0.45) 100px), url("../img/Hero.jpg") -100px;
-    height: 400px;
-    background-repeat: no-repeat;
+    height: 300px;
     background-size: cover;
   }
-  /* line 379, ../sass/screen.scss */
+  /* line 456, ../sass/screen.scss */
   body .hero h1 {
-    font-size: 60px;
-    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
-    color: #fff;
+    font-size: 40px;
     position: relative;
-    top: 200px;
+    top: 267px;
   }
-  /* line 386, ../sass/screen.scss */
+  /* line 461, ../sass/screen.scss */
   body .hero h2 {
-    font-size: 20px;
-    font-family: "UniversLTW01-67BoldCn", helvetica, sans-serif;
+    font-size: 30px;
+    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
     color: #fff;
     position: relative;
-    top: 200px;
+    top: 400px;
     left: 8px;
     padding-top: 20px;
   }
-  /* line 396, ../sass/screen.scss */
+  /* line 471, ../sass/screen.scss */
   body .form {
-    background: #bbe5e4;
+    background: #edf0e1;
   }
-  /* line 398, ../sass/screen.scss */
+  /* line 473, ../sass/screen.scss */
   body .form .headline {
     width: 100%;
     left: 0;
@@ -445,26 +486,27 @@ a:hover {
     color: #fff;
     margin: 0 auto;
   }
-  /* line 405, ../sass/screen.scss */
+  /* line 480, ../sass/screen.scss */
   body .form .headline p {
     font-size: 18px;
-    font-family: "Univers LT W01_45 Light", helvetica, sans-serif;
+    font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
     margin: 0;
     padding: 5;
   }
-  /* line 413, ../sass/screen.scss */
-  body .headline {
-    padding: 50px;
-    background: #00b0d8;
-  }
-  /* line 416, ../sass/screen.scss */
+  /* line 489, ../sass/screen.scss */
   body .headline p {
     font-size: 20px;
-    font-family: "Univers LT W04_55 Roman", helvetica, sans-serif;
-    color: #fff;
     padding-top: 20px;
   }
-  /* line 424, ../sass/screen.scss */
+  /* line 493, ../sass/screen.scss */
+  body .headline h2 {
+    font-size: 30px;
+  }
+  /* line 496, ../sass/screen.scss */
+  body .headline h3 {
+    font-size: 20px;
+  }
+  /* line 501, ../sass/screen.scss */
   body footer div {
     text-align: center;
   }

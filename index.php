@@ -32,35 +32,30 @@
 	<body class="">
 	<!-- Begin Your Landing Page -->
 		<header class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<a href="">
-						<img src="img/CWF_logo.png" alt="">
-					</a>
-				</div>
-			</div>
+			
 		</header>
-		<section class="hero">
-			<div class="container">
+		<section class="">
+			<div class="container hero">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12">
 						<h1>Long-Term Care</h1>
-						<h2>Helpful information for family members</h2>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="headline">
-			<div class="container">
+		<section class="headline container">
+			
 				<div class="row">
-					<div class="col-lg-8 col-lg-push-2 col-md-8 col-md-push-2 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h2>At Chatsworth</h2>
+						<h3>Helpful Information for Family Members</h3>
 						<p>Making the decision to move your loved one to a long-term care setting can be difficult and confusing. As you weigh your options, consider these important points:</p>
 					</div>
 				</div>
-			</div>
+		
 		</section>
-		<main class="copy">
-			<div class="container">
+		<main class="">
+			<div class="container copy">
 				<div class="row">
 					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 						<h3><span>WHO</span> would benefit from long-term nursing care?</h3>
@@ -77,9 +72,10 @@
 				<!-- Shortened Long Brochure Form -->
 				<div class="headline">
 					<h3>Continue Your Research</h3>
-					<p>Call <span class="phone">XXX-XXX-XXXX</span> to speak to a Chatsworth health care counselor or fill out this form to receive your free brochure.</p>
+					
 				</div>
 				<form action="https://s1713433073.t.eloqua.com/e/f2" id="form36" method="post" name="CC_Brochure_Request">
+					<p class="form-cta">Call <span class="phone">XXX-XXX-XXXX</span> to speak to a Chatsworth health care counselor or fill out this form to receive your free brochure.</p>
 				    <input name="elqFormName" type="hidden" value="CC_Brochure_Request" />
 				    <input name="elqSiteId" type="hidden" value="1713433073" />
 				    <input name="elqCustomerGUID" type="hidden" value="" />
@@ -563,13 +559,16 @@
 				    <input id="field23" name="RecordTypeId" type="hidden" value="012U0000000ZQvw" />
 				    
 				    <!-- Submit Button: Note Google UTM tracking onclick. Campaign Name needs to be changed. -->
-				        <button class="btn btn-primary btn-block btn-lg submit" onclick="ga('send', 'event', 'Button', '<?php echo $commInfo[$commGet]['commcode'] ?>', '<?php echo $commInfo[$commGet]['commcode'] ?> CC long-term care');" type="submit" value="Request my Brochure">Request My Brochure&nbsp;&nbsp;</button>
+				        <button class="btn btn-primary btn-block btn-lg submit" onclick="ga('send', 'event', 'Button', '<?php echo $commInfo[$commGet]['commcode'] ?>', '<?php echo $commInfo[$commGet]['commcode'] ?> CC long-term care');" type="submit" value="Request my Brochure">Click to submit</button>
 				    </div>
 				</form>
 			</div>	
 			</div>
+			<hr>
 			<footer class="container">
+
 				<div class="row footer">
+
 					<div class="col-lg-5 col-lg-push-3 col-md-5 col-md-push-2 col-sm-5 col-sm-push-2 col-xs-12">
 						<img  class="logo"src="img/CWF_logo.png" alt="">
 					</div>
