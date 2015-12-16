@@ -3,28 +3,28 @@ $(document).ready(function () {
   "use strict";
 
   // phone
-  var APL_callsource = "703-835-9650";
-  var CCV_callsource = "973-542-2059";
+  var APL_callsource = "1-800-CALLSOURCE";
+  var CCV_callsource = "1-800-CALLSOURCE";
   var CWF_callsource = "1-800-CALLSOURCE";
-  var ETH_callsource = "281-653-8102";
-  var GSV_callsource = "703-852-1554";
-  var HSD_callsource = "972-200-1214";
-  var OCV_callsource = "410-849-0029";
-  var RWV_callsource = "301-358-3375";
-  var TCK_callsource = "913-752-9304";
-  var WCD_callsource = "303-309-0401";
+  var ETH_callsource = "1-800-CALLSOURCE";
+  var GSV_callsource = "1-800-CALLSOURCE";
+  var HSD_callsource = "1-800-CALLSOURCE";
+  var OCV_callsource = "1-800-CALLSOURCE";
+  var RWV_callsource = "1-800-CALLSOURCE";
+  var TCK_callsource = "1-800-CALLSOURCE";
+  var WCD_callsource = "1-800-CALLSOURCE";
   // FACEBOOK CALLSOURCE
-  var FB_HSD_callsource = "1-800-926-4914";
+  var FB_HSD_callsource = "1-800-CALLSOURCE";
   // EMAIL CALLSOURCE NUMBERS
-  var APL_EMAIL_callsource = "703-872-7598";
-  var CCV_EMAIL_callsource = "973-607-4751";
-  var CWF_EMAIL_callsource = "561-422-4140";
-  var ETH_EMAIL_callsource = "281-456-3120";
-  var HSD_EMAIL_callsource = "972-200-0599";
-  var OCV_EMAIL_callsource = "410-881-0291";
-  var RWV_EMAIL_callsource = "301-637-2607";
-  var TCK_EMAIL_callsource = "913-534-8862";
-  var WCD_EMAIL_callsource = "303-357-1926";
+  var APL_EMAIL_callsource = "1-800-CALLSOURCE";
+  var CCV_EMAIL_callsource = "1-800-CALLSOURCE";
+  var CWF_EMAIL_callsource = "1-800-CALLSOURCE";
+  var ETH_EMAIL_callsource = "1-800-CALLSOURCE";
+  var HSD_EMAIL_callsource = "1-800-CALLSOURCE";
+  var OCV_EMAIL_callsource = "1-800-CALLSOURCE";
+  var RWV_EMAIL_callsource = "1-800-CALLSOURCE";
+  var TCK_EMAIL_callsource = "1-800-CALLSOURCE";
+  var WCD_EMAIL_callsource = "1-800-CALLSOURCE";
   // Level of Care
   var APL_care = "memory care or long-term care.";
   var CCV_care = "assisted living, memory care, or skilled nursing.";
