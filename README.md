@@ -14,9 +14,11 @@ be sure not to push back to this repo, not that you could. its in my name for a 
 
 ```
 $ ls -lah
+```
 
-//will give you this output
+will give you this output
 
+```
 total 296
 drwxr-xr-x  18 user  admin   612B Dec 16 08:57 .
 drwxr-xr-x  37 user  admin   1.2K Dec 16 08:47 ..
@@ -36,12 +38,20 @@ drwxr-xr-x   5 user  admin   170B Dec 16 08:46 sass
 drwxr-xr-x   5 user  admin   170B Dec 16 08:46 stylesheets
 -rw-r--r--   1 user  admin    28K Dec 16 08:46 tour.php
 -rw-r--r--   1 user  admin    35K Dec 16 08:46 variables.php
+```
 
-// then type this command to remove the folder 
-  
-$ rm -rf .git
+then follow these steps in your terminal to remove the folder
+
+```  
+$ rm --cached repo_path     #deleting reference to submodule HEAD (no trailing slash)
+$ rm -rf .gitmodules        #removing .gitmodules
+$ rm -rf repo_path/.git     # removing .git folder which tracks changes from old repo
+$ git add repo_path         #adding the folder back to the HEAD will track changes
+$git commit -m "your commit message"
 
 ```
+
+
 Happy coding!
 
 Let me know if you wish to submit a pull request
