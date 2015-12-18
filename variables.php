@@ -65,6 +65,7 @@ $commInfo = array(
     form40response => "315",
     form41response => "98",
     form42response => "65",
+    location => "Ashburn",
   ),
   BBV => array(
     name => "Brooksby Village",
@@ -95,6 +96,7 @@ $commInfo = array(
     form40response => "366",
     form41response => "99",
     form42response => "66",
+    location => "Peabody",
   ),
   CCV => array(
     name => "Cedar Crest",
@@ -125,6 +127,7 @@ $commInfo = array(
     form40response => "368",
     form41response => "101",
     form42response => "68",
+    location => "Pompton Plains",
   ),
   CCI => array(
     name => "Charlestown",
@@ -155,6 +158,7 @@ $commInfo = array(
     form40response => "367",
     form41response => "100",
     form42response => "67",
+    location => "Catonsville",
   ),
   CWF => array(
     name => "Chatsworth",
@@ -175,6 +179,7 @@ $commInfo = array(
     aboutus => "https://www.ericksonliving.com/chatsworth/continuing-care/about-chatsworth",
     form36response => "517",
     form40response => "584",
+    location => "Palm Beach Gardens",
   ),
   DVF => array(
     name => "Devonshire",
@@ -197,6 +202,7 @@ $commInfo = array(
     aboutus => "https://www.ericksonliving.com/devonshire/about-us/about-devonshire-0",
     form41response => "333",
     form42response => "334",
+    location => "Palm Beach Gardens",
   ),
   ETH => array(
     name => "Eagle's Trace",
@@ -227,6 +233,7 @@ $commInfo = array(
     form40response => "369",
     form41response => "102",
     form42response => "69",
+    location => "Houston",
   ),
   FRV => array(
     name => "Fox Run",
@@ -257,6 +264,7 @@ $commInfo = array(
     form40response => "370",
     form41response => "103",
     form42response => "70",
+    location => "Novi",
   ),
   GSV => array(
     name => "Greenspring",
@@ -287,6 +295,7 @@ $commInfo = array(
     form40response => "371",
     form41response => "104",
     form42response => "71",
+    location => "Springfield",
   ),
   HSD => array(
     name => "Highland Springs",
@@ -317,6 +326,7 @@ $commInfo = array(
     form40response => "372",
     form41response => "105",
     form42response => "72",
+    location => "Dallas",
   ),
   LHN => array(
     name => "Lantern Hill",
@@ -338,6 +348,7 @@ $commInfo = array(
     aboutus => "https://www.ericksonliving.com/lantern-hill/about-us/about-lantern-hill",
     form41response => "242",
     form42response => "243",
+    location => "New Providence",
   ),
   LPH => array(
     name => "Linden Ponds",
@@ -368,6 +379,7 @@ $commInfo = array(
     form40response => "373",
     form41response => "106",
     form42response => "73",
+    location => "Hingham",
   ),
   MGC => array(
     name => "Maris Grove",
@@ -398,6 +410,7 @@ $commInfo = array(
     form40response => "374",
     form41response => "107",
     form42response => "74",
+    location => "Glen Mills",
   ),
   OCV => array(
     name => "Oak Crest",
@@ -428,6 +441,7 @@ $commInfo = array(
     form40response => "375",
     form41response => "108",
     form42response => "75",
+    location => "Parkville",
   ),
   RWV => array(
     name => "Riderwood",
@@ -458,6 +472,7 @@ $commInfo = array(
     form40response => "376",
     form41response => "110",
     form42response => "76",
+    location => "Silver Spring",
   ),
   SBV => array(
     name => "Seabrook",
@@ -488,6 +503,7 @@ $commInfo = array(
     form40response => "377",
     form41response => "111",
     form42response => "77",
+    location => "New Jersey",
   ),
   TCK => array(
     name => "Tallgrass Creek",
@@ -518,6 +534,7 @@ $commInfo = array(
     form40response => "378",
     form41response => "112",
     form42response => "78",
+    location => "Overland Park",
   ),
   WCD => array(
     name => "Wind Crest",
@@ -548,6 +565,7 @@ $commInfo = array(
     form40response => "379",
     form41response => "114",
     form42response => "79",
+    location => "Highlands Ranch",
   )
 );
   
