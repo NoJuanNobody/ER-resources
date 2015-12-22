@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,490 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Users/adlondono/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
-}
-
-/* line 87, ../sass/screen.scss */
-header img {
-  width: 200px;
-  padding: 10px;
-}
-/* line 91, ../sass/screen.scss */
-header div {
-  text-align: center;
-}
-
-/* line 95, ../sass/screen.scss */
-body {
-  background: url(../img/dvf_bg.jpg);
-  background-size: cover;
-}
-
-/* line 99, ../sass/screen.scss */
-.hero {
-  background: url("../img/Hero.jpg");
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 105, ../sass/screen.scss */
-.hero h1 {
-  text-transform: uppercase;
-  font-size: 100px;
-  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-  color: #fff;
-  position: relative;
-  top: 715px;
-}
-/* line 113, ../sass/screen.scss */
-.hero h2 {
-  font-size: 30px;
-  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-  color: #fff;
-  position: relative;
-  top: 400px;
-  left: 8px;
-  padding-top: 20px;
-}
-
-/* line 123, ../sass/screen.scss */
-.headline {
-  padding-top: 10px;
-  background: #fff;
-}
-/* line 126, ../sass/screen.scss */
-.headline p {
-  font-size: 30px;
-  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-  color: #222;
-  padding-top: 20px;
-}
-/* line 132, ../sass/screen.scss */
-.headline h2 {
-  font-size: 70px;
-  font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-  text-transform: uppercase;
-  color: #8b9b3c;
-}
-/* line 138, ../sass/screen.scss */
-.headline h3 {
-  font-size: 30px;
-  font-family: "Avenir Next Cyr W00 Medium", helvetica, sans-serif;
-}
-
-/* line 144, ../sass/screen.scss */
-.copy {
-  padding-top: 50px;
-  background: #fff;
-}
-/* line 147, ../sass/screen.scss */
-.copy p {
-  margin-bottom: 80px;
-}
-/* line 150, ../sass/screen.scss */
-.copy h3 {
-  font-family: "Avenir Next Cyr W00 Medium", helvetica, sans-serif;
-  font-size: 30px;
-}
-/* line 154, ../sass/screen.scss */
-.copy h3 span {
-  color: #8b9b3c;
-  font-size: 36px;
-}
-/* line 160, ../sass/screen.scss */
-.copy .logo {
-  width: 324px;
-  display: inline-block;
-}
-/* line 164, ../sass/screen.scss */
-.copy hr {
-  border-top: 1px solid #C7CEC7;
-  width: 80%;
-  margin-top: 60px;
-}
-
-/* line 170, ../sass/screen.scss */
-p {
-  font-size: 24px;
-  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
-  margin: 15px 0;
-}
-
-/* line 177, ../sass/screen.scss */
-.form {
-  background: #edf0e1;
-}
-/* line 178, ../sass/screen.scss */
-.form .form-cta {
-  margin-bottom: 10px;
-}
-/* line 182, ../sass/screen.scss */
-.form .headline {
-  padding: 20px;
-  background: #8b9b3c;
-  text-transform: uppercase;
-  width: 487px;
-  position: relative;
-  left: -15px;
-}
-/* line 189, ../sass/screen.scss */
-.form .headline p {
-  font-size: 18px;
-  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
-  margin: 0;
-  padding: 5;
-}
-/* line 197, ../sass/screen.scss */
-.form h3 {
-  color: #fff;
-}
-/* line 200, ../sass/screen.scss */
-.form button {
-  font-family: "Avenir Next Cyr W00 Medium", helvetica, sans-serif;
-  font-size: 24px;
-  background: #00b0d8;
-  border: 2px solid #fff;
-  padding: 20px;
-  text-transform: uppercase;
-}
-/* line 208, ../sass/screen.scss */
-.form label {
-  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
-  margin-top: 10px;
-}
-
-/* line 214, ../sass/screen.scss */
-main footer {
-  margin-top: 50px;
-}
-/* line 217, ../sass/screen.scss */
-main footer p {
-  font-size: 12px;
-}
-
-/* line 223, ../sass/screen.scss */
-a {
-  color: #8b9b3c;
-}
-/* line 225, ../sass/screen.scss */
-a:hover {
-  text-decoration: none;
-}
-
-/* line 230, ../sass/screen.scss */
-.vertical-line {
-  height: 130px;
-  border-left: 1px solid #C7CEC7;
-  width: 200px;
-}
-/* line 234, ../sass/screen.scss */
-.vertical-line span {
-  display: block;
-  position: relative;
-  left: 30px;
-  top: 80px;
-  font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
-  font-size: 20px;
-}
-
-@media (max-width: 1200px) and (min-width: 992px) {
-  /* line 251, ../sass/screen.scss */
-  body .hero {
-    background: url("../img/Hero.jpg") -180px;
-    height: 800px;
-  }
-  /* line 254, ../sass/screen.scss */
-  body .hero h1 {
-    font-size: 100px;
-    position: relative;
-    top: 715px;
-  }
-  /* line 259, ../sass/screen.scss */
-  body .hero h2 {
-    font-size: 30px;
-    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-    color: #fff;
-    position: relative;
-    top: 400px;
-    left: 8px;
-    padding-top: 20px;
-  }
-  /* line 269, ../sass/screen.scss */
-  body .form {
-    background: #edf0e1;
-  }
-  /* line 270, ../sass/screen.scss */
-  body .form .form-cta {
-    margin-bottom: 10px;
-  }
-  /* line 274, ../sass/screen.scss */
-  body .form .headline {
-    width: 404px;
-    position: relative;
-    left: -15px;
-    padding: 20px;
-  }
-  /* line 280, ../sass/screen.scss */
-  body .form .headline p {
-    font-size: 16px;
-    margin: 0;
-  }
-  /* line 285, ../sass/screen.scss */
-  body .form label {
-    margin-top: 0px;
-  }
-  /* line 287, ../sass/screen.scss */
-  body .form label[for="salutation"] {
-    margin-top: 10px;
-  }
-  /* line 293, ../sass/screen.scss */
-  body p {
-    margin-bottom: 80px;
-  }
-  /* line 295, ../sass/screen.scss */
-  body p:last-child {
-    margin-bottom: 10px;
-  }
-  /* line 300, ../sass/screen.scss */
-  body nav, body footer p {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 992px) and (min-width: 768px) {
-  /* line 312, ../sass/screen.scss */
-  body .hero {
-    background: url("../img/Hero.jpg") -220px;
-    height: 700px;
-  }
-  /* line 315, ../sass/screen.scss */
-  body .hero h1 {
-    font-size: 80px;
-    position: relative;
-    top: 632px;
-  }
-  /* line 320, ../sass/screen.scss */
-  body .hero h2 {
-    font-size: 30px;
-    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-    color: #fff;
-    position: relative;
-    top: 400px;
-    left: 8px;
-    padding-top: 20px;
-  }
-  /* line 330, ../sass/screen.scss */
-  body p {
-    margin-bottom: 50px;
-  }
-  /* line 332, ../sass/screen.scss */
-  body p:last-child {
-    margin-bottom: 10px;
-  }
-  /* line 341, ../sass/screen.scss */
-  body .form .headline {
-    width: 312px;
-    padding: 20px;
-  }
-  /* line 342, ../sass/screen.scss */
-  body .form .headline h3 {
-    font-size: 20px;
-  }
-  /* line 347, ../sass/screen.scss */
-  body .form .headline p {
-    font-size: 16px;
-    margin-bottom: 0;
-  }
-  /* line 354, ../sass/screen.scss */
-  body .form button {
-    font-size: 20px;
-  }
-  /* line 358, ../sass/screen.scss */
-  body footer p {
-    margin-bottom: 20px;
-  }
-  /* line 360, ../sass/screen.scss */
-  body footer p:last-child {
-    margin-bottom: 10px;
-  }
-  /* line 367, ../sass/screen.scss */
-  body .copy .logo {
-    width: 263px;
-    display: inline-block;
-  }
-}
-@media (max-width: 768px) and (min-width: 500px) {
-  /* line 379, ../sass/screen.scss */
-  body header img {
-    width: 80px;
-    padding: 10px;
-  }
-  /* line 383, ../sass/screen.scss */
-  body header div {
-    text-align: center;
-  }
-  /* line 387, ../sass/screen.scss */
-  body .hero {
-    background: url("../img/Hero.jpg") -250px;
-    height: 600px;
-  }
-  /* line 390, ../sass/screen.scss */
-  body .hero h1 {
-    font-size: 70px;
-    position: relative;
-    top: 542px;
-  }
-  /* line 395, ../sass/screen.scss */
-  body .hero h2 {
-    font-size: 30px;
-    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-    color: #fff;
-    position: relative;
-    top: 400px;
-    left: 8px;
-    padding-top: 20px;
-  }
-  /* line 405, ../sass/screen.scss */
-  body .form {
-    background: #edf0e1;
-  }
-  /* line 407, ../sass/screen.scss */
-  body .form .headline {
-    width: 100%;
-    left: 0;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-  }
-  /* line 414, ../sass/screen.scss */
-  body .form .headline p {
-    font-size: 18px;
-    font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
-    margin: 0;
-    padding: 5;
-  }
-  /* line 423, ../sass/screen.scss */
-  body .headline p {
-    font-size: 20px;
-    padding-top: 20px;
-  }
-  /* line 427, ../sass/screen.scss */
-  body .headline h2 {
-    font-size: 50px;
-  }
-  /* line 430, ../sass/screen.scss */
-  body .headline h3 {
-    font-size: 25px;
-  }
-  /* line 435, ../sass/screen.scss */
-  body footer div {
-    text-align: center;
-  }
-}
-@media (max-width: 500px) {
-  /* line 445, ../sass/screen.scss */
-  body header img {
-    width: 80px;
-    padding: 10px;
-  }
-  /* line 449, ../sass/screen.scss */
-  body header div {
-    text-align: center;
-  }
-  /* line 453, ../sass/screen.scss */
-  body .hero {
-    height: 300px;
-    background-size: cover;
-  }
-  /* line 456, ../sass/screen.scss */
-  body .hero h1 {
-    font-size: 40px;
-    position: relative;
-    top: 267px;
-  }
-  /* line 461, ../sass/screen.scss */
-  body .hero h2 {
-    font-size: 30px;
-    font-family: "Avenir Next Cyr W00 Regular", helvetica, sans-serif;
-    color: #fff;
-    position: relative;
-    top: 400px;
-    left: 8px;
-    padding-top: 20px;
-  }
-  /* line 471, ../sass/screen.scss */
-  body .form {
-    background: #edf0e1;
-  }
-  /* line 473, ../sass/screen.scss */
-  body .form .headline {
-    width: 100%;
-    left: 0;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-  }
-  /* line 480, ../sass/screen.scss */
-  body .form .headline p {
-    font-size: 18px;
-    font-family: "Avenir Next Cyr W00 Light", helvetica, sans-serif;
-    margin: 0;
-    padding: 5;
-  }
-  /* line 489, ../sass/screen.scss */
-  body .headline p {
-    font-size: 20px;
-    padding-top: 20px;
-  }
-  /* line 493, ../sass/screen.scss */
-  body .headline h2 {
-    font-size: 30px;
-  }
-  /* line 496, ../sass/screen.scss */
-  body .headline h3 {
-    font-size: 20px;
-  }
-  /* line 501, ../sass/screen.scss */
-  body footer div {
-    text-align: center;
-  }
 }

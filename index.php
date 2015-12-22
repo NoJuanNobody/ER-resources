@@ -41,9 +41,9 @@
 			<div class="row footer">
 
 				<div class="col-lg-5 col-lg-push-3 col-md-5 col-md-push-2 col-sm-5 col-sm-push-2 col-xs-12">
-					<img  class="logo"src="img/CWF_logo.png" alt="">
+					<img  class="logo"src="<?php  echo $commInfo[$commGet]['logo'] ?>" alt="">
 				</div>
-				<div class="vertical-line col-lg-push-2 col-lg-4 col-md-push-2 col-md-4 col-sm-push-2 col-sm-4 col-xs-push-2 hidden-xs"><span>Palm Beach</span></div>
+				<div class="vertical-line col-lg-push-2 col-lg-4 col-md-push-2 col-md-4 col-sm-push-2 col-sm-4 col-xs-push-2 hidden-xs"><span><?php  echo $commInfo[$commGet]['location'] ?></span></div>
 				<br>
 				
 				
@@ -115,10 +115,10 @@
 		<!-- Form Validation and Additional Variables: Include any variables unable to be placed in PHP file like multiple callsource numbers or location information -->
 		
 			<!-- Form Validation Script -->		
-			<script src="http://lp2.ericksonliving.com/resources/js/jquery.validate.min.js" type="text/javascript"></script>
+			<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 
 			<!-- Brochure & Tour Form Validation Options -->
-			<script src="http://lp2.ericksonliving.com/resources/js/long-form-validation.js" type="text/javascript"></script>
+			<script src="js/long-form-validation.js" type="text/javascript"></script>
 
 		<!-- Spam Trap and TimeStamp: This is the most important LP script as it aids in integration with Salesforce.  Never delete it! -->
 	    <script type="text/javascript">
