@@ -1,4 +1,4 @@
-# ER-resources
+# ER-resources boilerplate
 this repo containes an up to date boilerplate of all of the Erickson Living resources needed to start a project quickly
 
 ## getting started
@@ -6,6 +6,46 @@ this repo containes an up to date boilerplate of all of the Erickson Living reso
 clone this repo
 ```
 $ git clone  https://github.com/alejandro-londono/ER-resources.git
+```
+
+## What is inside
+
+here is a breakdown of what is inside this boilerplate
+
+```
+ER-resources
+	|->.sass-cache/
+			#involved in recording your Sass changes
+	|->css/
+			#css related files not generated from sass
+	|->font-lists/
+			#curated list of all the erickson fonts
+	|->forms/
+			#boilerplate of all the forms we need
+	|->img/
+			#images directory also contains all of the 
+	|->js/
+		|->autocomplete.js
+			#used to autocomplete versioning and forms for campaigns
+		|->form-validation.js
+		|->jquery.validate.min.js
+		|->long-form-validation.js
+			#validation for the long forms CC or IL
+		...other js files
+	|->sass/
+		|->screen.scss
+			#put your sass here
+		...unused scss files
+	|->stylesheets/
+		#Sass files rendered as CSS go here
+	|->variables.php
+		#Master Versioning file will all addresses thankyou pages and links.
+	|->index.php
+		#template to begin working. all assets are wired up already
+	|->config.rb
+		#Sass config file
+	|->.gitignore
+		#you know what this is
 ```
 
 then you can start to add what you need! 
