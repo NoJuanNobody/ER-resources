@@ -94,7 +94,7 @@ footer .vertical-line {
 }
 /* line 32, ../sass/screen.scss */
 footer .vertical-line span {
-  left: -100px;
+  left: -80px;
   top: 40px;
   position: relative;
 }
@@ -109,5 +109,13 @@ footer li, footer .disclaimer {
     position: relative;
     left: -15px;
     width: 404px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* line 72, ../sass/screen.scss */
+  .form legend {
+    position: relative;
+    left: -15px;
+    width: 313px;
   }
 }
