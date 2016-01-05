@@ -67,7 +67,15 @@ footer{
     }
   }
   // SMALL 997-768PX
-
+  @media (min-width:768px) and (max-width:992px){
+    .form{
+      legend{
+       position: relative;
+       left: -15px;
+       width: 313px;
+      }      
+    }
+  }
   // XSMALL 768-400PX
 
   // MOBILE <400PX
