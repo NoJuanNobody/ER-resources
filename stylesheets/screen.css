@@ -88,16 +88,26 @@ footer .footer-logo {
 /* line 26, ../sass/screen.scss */
 footer .vertical-line {
   margin-bottom: 30px;
+  border-left: 1px solid #000;
   text-align: center;
-  height: 150px;
+  height: 70px;
 }
 /* line 32, ../sass/screen.scss */
 footer .vertical-line span {
   left: -100px;
-  top: 80px;
+  top: 40px;
   position: relative;
 }
 /* line 38, ../sass/screen.scss */
 footer li, footer .disclaimer {
   font-size: 16px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 60, ../sass/screen.scss */
+  .form legend {
+    position: relative;
+    left: -15px;
+    width: 404px;
+  }
 }

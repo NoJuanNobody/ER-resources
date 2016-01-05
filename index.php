@@ -40,10 +40,10 @@
 
 			<div class="row footer">
 
-				<div class="col-lg-5 col-lg-push-3 col-md-5 col-md-push-2 col-sm-5 col-sm-push-2 col-xs-12">
+				<div class="col-lg-5 col-lg-push-3 col-md-5 col-md-push-2 col-sm-5 col-sm-push-2 col-xs-12 center">
 					<img  class="logo"src="<?php  echo $commInfo[$commGet]['logo'] ?>" alt="">
 				</div>
-				<div class="vertical-line col-lg-push-2 col-lg-4 col-md-push-2 col-md-4 col-sm-push-2 col-sm-4 col-xs-push-2 hidden-xs"><span><?php  echo $commInfo[$commGet]['location'] ?></span></div>
+				<div class="vertical-line col-lg-push-1 col-lg-4 col-md-push-1 col-md-4 col-sm-push-2 col-sm-4 col-xs-push-2 hidden-xs"><span><?php  echo $commInfo[$commGet]['location'] ?></span></div>
 				<br>
 				
 				

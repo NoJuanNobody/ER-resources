@@ -8,7 +8,7 @@
 // COLORS
 
 // FONTS
-
+$blk:#000;
 // MAIN
 footer{
  margin-bottom: 50px;
@@ -25,13 +25,13 @@ footer{
  }
  .vertical-line{
    margin-bottom:30px;
-   // border-left:1px solid $blk;
+   border-left:1px solid $blk;
    text-align: center;
-   height: 150px;
+   height: 70px;
    // width:100%;
    span{
      left:-100px;
-     top:80px;
+     top:40px;
      position:relative;
    } 
  }
@@ -49,3 +49,25 @@ footer{
 	// XSMALL 768-400PX
 
 	// MOBILE <400PX
+
+  // DONT TOUCH THESE MEDIA QUERIES
+  // LARGE >1200PX
+
+  // MED 1200-992PX
+  @media (min-width:992px) and (max-width:1200px){
+    .form{
+      
+      legend{
+       position: relative;
+       left: -15px;
+       width: 404px;
+
+      }
+      
+    }
+  }
+  // SMALL 997-768PX
+
+  // XSMALL 768-400PX
+
+  // MOBILE <400PX
