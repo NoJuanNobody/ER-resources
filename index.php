@@ -62,7 +62,7 @@
 			                <a href="https://www.youtube.com/user/ericksonnewmedia"><img alt="Youtube" height="25" src="img/youtube-blk.png" width="25">
 			                </a>
 			                <a href="https://www.pinterest.com/ericksonliving/"><img alt="Pinterest" height="25" src="img/pin-blk.png" width="25">
-			                </a> &nbsp; <a href="https://wwww.ericksonliving.com" style="text-decoration: underline;">EricksonLiving.com</a>
+			                </a> &nbsp; <a href="https://www.ericksonliving.com" style="text-decoration: underline;">EricksonLiving.com</a>
 			            </nav>
 			            
 			                <p class="small">&copy; 2015 Erickson Living&reg;. All rights reserved. <?php echo $commInfo[$commGet]['iladdress']?>              <br><span class="phone">1&#8209;800&#8209;XXX&#8209;XXXX</span>
