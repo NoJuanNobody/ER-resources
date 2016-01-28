@@ -71,7 +71,33 @@ $('#form42').validate({
 
     }
 });
+// RSVP form
+$('#rsvp').validate({
+    rules:{
+        name: {
+            required: true
+        },
+        email: {
+            required: true
+        },
+        tel: {
+            required: true
+        },
+        address1: {
+            required: true
+        },
+        city: {
+            required: true
+        },
+        stateOrProvince: {
+            required: true
+        },
+        zipOrPostalCode: {
+            required: true
+        },
 
+    }
+});
 // Form 40 CC Tour Request
 $('#form40').validate({
     rules: {

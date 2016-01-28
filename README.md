@@ -37,7 +37,7 @@ ER-resources
 			#put your sass here
 		...unused scss files
 	|->stylesheets/
-		#Sass files rendered as CSS go here
+		#Sass files rendered as CSS go here with a reset included.
 	|->variables.php
 		#Master Versioning file will all addresses thankyou pages and links.
 	|->index.php
@@ -88,6 +88,68 @@ $ rm -rf .gitmodules        #removing .gitmodules
 $ rm -rf repo_path/.git     # removing .git folder which tracks changes from old repo
 $ git add repo_path         #adding the folder back to the HEAD will track changes
 $git commit -m "your commit message"
+
+```
+## Nuanced versioning classes. 
+
+### Auto-complete variables
+	the auto complete file fills in a number of things...everything to callsources, change in copy, forms options and even level of care
+	in many cased you will have access to this versioned data by updating the js file to insert data that changes project to project (like callsources). other than that, things like level of care, and small copy versioning are all built in and ready to go. 
+
+here are some classes you might find useful
+
+```
+.personal
+.disclaimer
+.phone
+.LOC
+
+```
+the ```.phone``` class autopopulates the span tag with the callsource number you have added to the auto-complete.js file. if you should change those numbers before pushing live. 
+
+other than that it is pretty straight forward. 
+
+
+### Variables.php
+	The variables php file is basically a database that will serve all versioned community related content based on Javascript variables passed through the URL. if you want to use this code 
+
+```
+<?php echo $commInfo[$commGet]['insert-attribute-here']. ?>
+
+```
+you can use any of these attributes 
+
+```
+name
+commcode
+iladdress
+phone
+tollphone
+frontdeskphone
+ccphone
+urlvalue
+urlquery
+commhome
+ilbrochurelink
+ilbrochurety
+iltourlink
+iltourty
+ccbrochurelink
+ccbrochurety
+cctourlink
+cctourty
+contact
+directions
+logo
+aboutus
+map
+form35response
+form36response
+form40response
+form41response
+form42response
+location
+cclocation
 
 ```
 

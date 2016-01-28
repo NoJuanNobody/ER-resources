@@ -69,42 +69,43 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 13, ../sass/screen.scss */
 footer {
+  font-family: arial, Helvetica, sans-serif;
   margin-bottom: 50px;
 }
-/* line 15, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 footer .logo-space {
   text-align: center;
   padding: 20px;
 }
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 footer p, footer li {
   margin-bottom: 5px;
   line-height: 20px;
 }
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 footer .footer-logo {
   text-align: center;
 }
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 footer .vertical-line {
   margin-bottom: 30px;
   border-left: 1px solid #000;
   text-align: center;
   height: 70px;
 }
-/* line 32, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 footer .vertical-line span {
   left: -80px;
   top: 40px;
   position: relative;
 }
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 footer li, footer .disclaimer {
   font-size: 16px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 60, ../sass/screen.scss */
+  /* line 61, ../sass/screen.scss */
   .form legend {
     position: relative;
     left: -15px;
@@ -112,10 +113,16 @@ footer li, footer .disclaimer {
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  /* line 72, ../sass/screen.scss */
+  /* line 73, ../sass/screen.scss */
   .form legend {
     position: relative;
     left: -15px;
     width: 313px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 83, ../sass/screen.scss */
+  .logo-container {
+    text-align: center;
   }
 }

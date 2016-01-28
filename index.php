@@ -40,8 +40,8 @@
 
 			<div class="row footer">
 
-				<div class="col-lg-5 col-lg-push-3 col-md-5 col-md-push-2 col-sm-5 col-sm-push-2 col-xs-12 center">
-					<img  class="logo"src="<?php  echo $commInfo[$commGet]['logo'] ?>" alt="">
+				<div class="logo-container col-lg-5 col-lg-push-2 col-md-5 col-md-push-2 col-sm-5 col-sm-push-2 col-xs-12 center">
+					<a href="<?php  echo $commInfo[$commGet]['commhome'] ?>"><img  class="logo" src="<?php  echo $commInfo[$commGet]['logo'] ?>" alt=""></a>
 				</div>
 				<div class="vertical-line col-lg-push-1 col-lg-4 col-md-push-1 col-md-4 col-sm-push-2 col-sm-4 col-xs-push-2 hidden-xs"><span><?php  echo $commInfo[$commGet]['location'] ?></span></div>
 				<br>
@@ -65,7 +65,7 @@
 			                </a> &nbsp; <a href="https://www.ericksonliving.com" style="text-decoration: underline;">EricksonLiving.com</a>
 			            </nav>
 			            
-			                <p class="small">&copy; 2015 Erickson Living&reg;. All rights reserved. <?php echo $commInfo[$commGet]['iladdress']?>              <br><span class="phone">1&#8209;800&#8209;XXX&#8209;XXXX</span>
+			                <p class="small">&copy; <?php echo date('Y') ?> Erickson Living&reg;. All rights reserved. <?php echo $commInfo[$commGet]['iladdress']?>              <br><span class="phone">1&#8209;800&#8209;XXX&#8209;XXXX</span>
 			                </p>
 			                <p class="disclaimer"></p>
 			                <nav>

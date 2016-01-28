@@ -6,11 +6,12 @@
  @import "compass/reset";
 @import "compass/reset";
 // COLORS
-
-// FONTS
 $blk:#000;
+// FONTS
+$arial: arial, Helvetica, sans-serif;
 // MAIN
 footer{
+font-family: $arial;
  margin-bottom: 50px;
  .logo-space{
    text-align: center;
@@ -77,5 +78,13 @@ footer{
     }
   }
   // XSMALL 768-400PX
-
   // MOBILE <400PX
+@media (max-width:768px){
+  .logo-container{
+    text-align:center;
+  }
+}
+
+
+
+
