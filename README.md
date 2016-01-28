@@ -93,8 +93,8 @@ $git commit -m "your commit message"
 ## Nuanced versioning classes. 
 
 ### Auto-complete variables
-	the auto complete file fills in a number of things...everything to callsources, change in copy, forms options and even level of care
-	in many cased you will have access to this versioned data by updating the js file to insert data that changes project to project (like callsources). other than that, things like level of care, and small copy versioning are all built in and ready to go. 
+the auto complete file fills in a number of things...everything to callsources, change in copy, forms options and even level of care
+in many cased you will have access to this versioned data by updating the js file to insert data that changes project to project (like callsources). other than that, things like level of care, and small copy versioning are all built in and ready to go. 
 
 here are some classes you might find useful
 
@@ -111,7 +111,7 @@ other than that it is pretty straight forward.
 
 
 ### Variables.php
-	The variables php file is basically a database that will serve all versioned community related content based on Javascript variables passed through the URL. if you want to use this code 
+The variables php file is basically a database that will serve all versioned community related content based on Javascript variables passed through the URL. if you want to use this code 
 
 ```
 <?php echo $commInfo[$commGet]['insert-attribute-here']. ?>
