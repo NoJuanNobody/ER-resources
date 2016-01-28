@@ -1,5 +1,6 @@
 # ER-resources boilerplate
 this repo containes an up to date boilerplate of all of the Erickson Living resources needed to start a project quickly
+make sure to review the nuanced versioning documentation at the bottom of this document to use this boilerplate to its full potential. 
 
 ## getting started
 
